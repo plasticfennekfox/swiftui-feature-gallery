@@ -3,9 +3,9 @@
 A small, modular iOS demo app that showcases common SwiftUI UI components and patterns inside a single project.
 
 The goal of this repo is to serve as a playground / reference for:
-- Exploring core SwiftUI views and navigation patterns
-- Trying out a simple, SPM-based modular architecture
 - Having a compact “feature gallery” you can extend with your own demos
+- Exploring core SwiftUI views and navigation patterns
+- Trying out SPM-based modular architecture
 
 Target platform: **iOS 17+**  
 Tools: **Xcode 15+**, **Swift**, **SwiftUI**, **Swift Package Manager**
