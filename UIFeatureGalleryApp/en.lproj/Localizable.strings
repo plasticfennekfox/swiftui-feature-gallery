@@ -1,0 +1,427 @@
+/* 
+  Localizable.strings
+  ExampleApp
+
+  Created by Fuchs on 14/11/25.
+  
+*/
+
+/* Root */
+"root.title" = "SwiftUI Feature Catalog";
+
+/* Routes */
+"route.catalog.title"     = "Catalog";
+"route.forms.title"       = "Forms";
+"route.lists.title"       = "Lists";
+"route.navigation.title"  = "Navigation";
+"route.textRich.title"    = "Text & Rich";
+"route.animations.title"  = "Animations";
+"route.gesturesDnD.title" = "Gestures & Drag&Drop";
+"route.charts.title"      = "Charts";
+"route.imagesDrawing.title" = "Images & Drawing";
+"route.swiftData.title"   = "SwiftData";
+"route.networking.title"  = "Networking";
+"route.widgets.title"     = "Widgets / Live Activities";
+"route.uikitInterop.title" = "UIKit Interop";
+"route.mapsStatic.title"  = "Static Map";
+
+/* Catalog screen */
+"catalog.title"    = "Catalog";
+"catalog.subtitle" = "Pick a feature to open its demo screens.";
+"catalog.section.features" = "Features";
+
+/* Forms */
+"forms.title"          = "Forms";
+"forms.field.name"     = "Name";
+"forms.toggle.option"  = "Toggle option";
+"forms.date"           = "Date";
+"forms.submit"         = "Submit";
+
+/* Navigation */
+"navigation.title"           = "Navigation";
+"navigation.openSheet"       = "Open Sheet";
+"navigation.showPopover"     = "Show Popover";
+"navigation.sheet.content"   = "Sheet content";
+"navigation.popover.content" = "Popover";
+
+/* Animations */
+"animations.title" = "Animations";
+
+/* Implicit */
+"animations.implicit.title" = "Implicit animation";
+"animations.implicit.subtitle" = "Changes are animated automatically when state updates.";
+"animations.implicit.button.on" = "Turn ON";
+"animations.implicit.button.off" = "Turn OFF";
+
+/* Explicit */
+"animations.explicit.title" = "Explicit animation";
+"animations.explicit.subtitle" = "Use withAnimation for more control.";
+"animations.explicit.button.animate" = "Animate bars";
+"animations.explicit.button.reset" = "Reset bars";
+
+/* Matched geometry */
+"animations.matched.title" = "Matched geometry";
+"animations.matched.subtitle" = "Animate a view moving between containers.";
+"animations.matched.left" = "Left";
+"animations.matched.right" = "Right";
+"animations.matched.badge" = "NEW";
+"animations.matched.button.toggleBadge" = "Toggle badge position";
+
+/* PhaseAnimator */
+"animations.phase.title" = "PhaseAnimator (iOS 17)";
+"animations.phase.subtitle" = "Animate through multiple phases with a single declaration.";
+
+/* Charts */
+"charts.line.title"           = "Line chart";
+"charts.line.subtitle"        = "Simple trend over days of the week.";
+
+"charts.bar.title"            = "Bar chart";
+"charts.bar.subtitle"         = "Compare categories using BarMark.";
+
+"charts.mixed.title"          = "Mixed chart";
+"charts.mixed.subtitle"       = "Area + rule mark (average).";
+
+"charts.axis.day"             = "Day";
+"charts.axis.value"           = "Value";
+"charts.axis.minutes"         = "Minutes";
+"charts.axis.category"        = "Category";
+"charts.axis.average"         = "Average";
+
+"charts.bar.selected"         = "Selected: %@";
+"charts.bar.legend.hint"      = "Tap a row in legend below to select a category.";
+
+"charts.mixed.averageValue"   = "Average: %d";
+
+"charts.weekday.mon"          = "Mon";
+"charts.weekday.tue"          = "Tue";
+"charts.weekday.wed"          = "Wed";
+"charts.weekday.thu"          = "Thu";
+"charts.weekday.fri"          = "Fri";
+"charts.weekday.sat"          = "Sat";
+"charts.weekday.sun"          = "Sun";
+
+"charts.category.focus"       = "Focus";
+"charts.category.meetings"    = "Meetings";
+"charts.category.coding"      = "Coding";
+"charts.category.review"      = "Review";
+
+/* Forms – sections */
+"forms.section.account"     = "Account";
+"forms.section.preferences" = "Preferences";
+"forms.section.about"       = "About you";
+"forms.progress.title"      = "Completion";
+
+/* Forms – fields */
+"forms.field.email"         = "Email";
+"forms.field.password"      = "Password (min 6)";
+"forms.field.role"          = "Role";
+"forms.field.reminderDate"  = "Reminder date";
+"forms.field.favoriteColor" = "Favorite color";
+
+/* Forms – toggles and sliders */
+"forms.toggle.notifications" = "Enable notifications";
+"forms.toggle.newsletter"    = "Subscribe to newsletter";
+"forms.toggle.acceptTerms"   = "I accept the Terms of Service";
+"forms.age.label"            = "Age: %d";
+"forms.slider.satisfaction"  = "Satisfaction: %d%%";
+
+/* Forms – progress */
+"forms.progress.text" = "%d%% filled";
+
+/* Forms – roles */
+"forms.role.user"  = "User";
+"forms.role.admin" = "Admin";
+"forms.role.guest" = "Guest";
+
+/* Forms – alerts and validation */
+"forms.alert.submitted.title"   = "Form submitted";
+"forms.alert.submitted.message" = "We have logged your form in analytics.";
+"forms.alert.submitted.ok"      = "OK";
+"forms.validation.error"        = "Please fill in required fields and accept the terms.";
+
+/* Gestures & Drag&Drop */
+"gestures.basic.title"            = "Basic gestures";
+"gestures.basic.subtitle"         = "Tap, double tap and long press.";
+"gestures.basic.tapArea.title"    = "Tap area";
+"gestures.basic.tapCount"         = "Taps: %d";
+"gestures.basic.longPressed"      = "Long pressed";
+"gestures.basic.longPressHint"    = "Long press me";
+
+"gestures.drag.title"             = "Drag gesture";
+"gestures.drag.subtitle"          = "Drag the card and it will spring back to the center.";
+"gestures.drag.label"             = "Drag me";
+
+"gestures.dnd.title"              = "Drag & Drop between columns";
+"gestures.dnd.subtitle"           = "Drag items between the left and right columns.";
+"gestures.dnd.columnA"            = "Column A";
+"gestures.dnd.columnB"            = "Column B";
+"gestures.dnd.placeholder"        = "Drop items here";
+
+/* Gestures – DnD sample items */
+"gestures.dnd.item.alpha.title"   = "Alpha";
+"gestures.dnd.item.bravo.title"   = "Bravo";
+"gestures.dnd.item.charlie.title" = "Charlie";
+"gestures.dnd.item.delta.title"   = "Delta";
+"gestures.dnd.item.echo.title"    = "Echo";
+
+"gestures.dnd.item.subtitle.columnA" = "From A column";
+"gestures.dnd.item.subtitle.columnB" = "From B column";
+
+/* Images & Drawing */
+"images.basic.title"           = "Basic images";
+"images.basic.subtitle"        = "SF Symbols, rendering modes and aspect ratio.";
+
+"images.masks.title"           = "Masks & overlays";
+"images.masks.subtitle"        = "Linear gradient masked by rounded rectangle with overlay text.";
+"images.masks.headerTitle"     = "Gradient card";
+"images.masks.headerSubtitle"  = "Mask, overlay & shadows";
+
+"images.canvas.title"          = "Canvas";
+"images.canvas.subtitle"       = "Custom drawing with Canvas and shapes.";
+
+"images.freeDrawing.title"         = "Free drawing";
+"images.freeDrawing.subtitle"      = "Draw with your finger (mouse in simulator).";
+"images.freeDrawing.clearButton"   = "Clear";
+
+/* Lists */
+"lists.title"                           = "Lists";
+
+"lists.toolbar.filterFavorites.help"    = "Show only favorites";
+"lists.toolbar.add.accessibilityLabel"  = "Add item";
+"lists.search.prompt"                   = "Search items";
+
+"lists.section.static"                  = "Static examples";
+"lists.section.dynamic"                 = "Editable list";
+
+"lists.static.row.plain"                = "Plain row";
+"lists.static.row.detail"               = "With detail";
+"lists.static.row.badgeTitle"           = "With badge";
+"lists.static.row.badgeLabel"           = "NEW";
+
+"lists.emptyState"                      = "No items match your filters";
+
+"lists.action.favorite"                 = "Favorite";
+"lists.action.unfavorite"               = "Unfavorite";
+"lists.action.delete"                   = "Delete";
+
+"lists.item.titlePattern"               = "Item %d";
+"lists.item.subtitleCreatedNow"         = "Created now";
+"lists.sample.subtitlePattern"          = "Subtitle %d";
+
+/* Static Map */
+"maps.overview.title"         = "Overview";
+"maps.overview.subtitle"      = "Static map previews with predefined regions and annotations. No location services are used.";
+
+"maps.simple.title"           = "Simple static preview";
+"maps.simple.subtitle"        = "Non-interactive map centered on Apple Park.";
+
+"maps.presets.title"          = "Regions (presets)";
+"maps.presets.subtitle"       = "Switch between predefined cities without user gestures.";
+"maps.presets.picker.label"   = "Region";
+"maps.presets.showing"        = "Showing: %@";
+
+"maps.annotations.title"      = "Annotations";
+"maps.annotations.subtitle"   = "Custom markers for several locations on a static map.";
+
+/* Static Map – presets */
+"maps.preset.applePark"       = "Apple Park";
+"maps.preset.sanFrancisco"    = "San Francisco";
+"maps.preset.london"          = "London";
+
+/* Static Map – locations */
+"maps.location.applePark.title"        = "Apple Park, Cupertino";
+"maps.location.applePark.short"        = "Apple Park";
+
+"maps.location.sanFrancisco.title"     = "San Francisco, CA";
+"maps.location.sanFrancisco.short"     = "SF";
+
+"maps.location.london.title"           = "London, UK";
+"maps.location.london.short"           = "London";
+
+/* Navigation screen */
+"navigation.title"                    = "Navigation";
+
+/* Navigation – links card */
+"navigation.links.title"              = "Navigation links";
+"navigation.links.subtitle"           = "Push detail screens using NavigationLink.";
+"navigation.link.detailA.title"       = "Detail A";
+"navigation.link.detailB.title"       = "Detail B";
+"navigation.link.detailA"             = "Go to Detail A";
+"navigation.link.detailB"             = "Go to Detail B";
+
+/* Navigation – sheets card */
+"navigation.sheetsCard.title"         = "Sheets & full screen covers";
+"navigation.sheetsCard.subtitle"      = "Present modals using sheet and fullScreenCover.";
+/* navigation.openSheet already exists */
+"navigation.buttons.fullScreen"       = "Full screen";
+
+/* Navigation – dialogs & menus card */
+"navigation.dialogsCard.title"        = "Dialogs & menus";
+"navigation.dialogsCard.subtitle"     = "confirmationDialog and inline Menu.";
+"navigation.buttons.showConfirmDialog" = "Show confirmation dialog";
+"navigation.inlineMenu.label"         = "Open inline menu";
+"navigation.menu.settings"            = "Settings";
+"navigation.menu.markAllRead"         = "Mark all as read";
+"navigation.menu.clearHistory"        = "Clear history";
+
+/* Navigation – toolbar menu */
+"navigation.toolbar.menu.logEvent"    = "Log analytics event";
+"navigation.toolbar.menu.refresh"     = "Refresh";
+
+/* Navigation – confirmation dialog */
+"navigation.confirm.title"            = "Are you sure?";
+"navigation.confirm.message"          = "This is a confirmationDialog example.";
+"navigation.confirm.primary"          = "Primary action";
+"navigation.confirm.destructive"      = "Destructive";
+"navigation.confirm.cancel"           = "Cancel";
+
+/* Navigation – last action status */
+"navigation.status.prefix"            = "Last action: %@";
+"navigation.status.none"              = "No actions yet";
+"navigation.status.primary"           = "Primary confirmation action";
+"navigation.status.destructive"       = "Destructive confirmation action";
+"navigation.status.cancelled"         = "Cancelled";
+"navigation.status.menu.settings"     = "Menu: Open settings";
+"navigation.status.menu.markRead"     = "Menu: Mark all as read";
+"navigation.status.menu.clearHistory" = "Menu: Clear history";
+"navigation.status.toolbar.logged"    = "Logged toolbar event";
+"navigation.status.toolbar.refreshed" = "Refreshed content";
+
+/* Navigation – TabView card */
+"navigation.tabsCard.title"           = "TabView preview";
+"navigation.tabsCard.subtitle"        = "Embedded TabView for demonstration.";
+"navigation.tab.home.contentTitle"      = "Home tab";
+"navigation.tab.favorites.contentTitle" = "Favorites tab";
+"navigation.tab.profile.contentTitle"   = "Profile tab";
+"navigation.tab.home.tabItem"           = "Home";
+"navigation.tab.favorites.tabItem"      = "Favorites";
+"navigation.tab.profile.tabItem"        = "Profile";
+"navigation.tab.selectedTemplate"       = "Selected tab: %@";
+
+/* Navigation – sheet content */
+"navigation.sheet.title"              = "Sheet";
+"navigation.sheet.description"        = "This sheet is presented using .sheet.";
+/* navigation.sheet.content already exists */
+"navigation.button.close"             = "Close";
+
+/* Navigation – full screen cover */
+"navigation.fullscreen.title"         = "Full screen cover";
+"navigation.fullscreen.description"   = "Presented using .fullScreenCover.";
+
+/* Text & Rich screen */
+"textRich.typography.title"        = "Typography";
+"textRich.typography.largeTitle"   = "Large title";
+"textRich.typography.titleText"    = "Title";
+"textRich.typography.body"         = "Body text with regular weight and multiline support. This simulates a standard paragraph in your app.";
+"textRich.typography.caption"      = "Caption / secondary text";
+
+"textRich.markdown.title"          = "Markdown";
+"textRich.markdown.inline"         = "**Bold** _italic_ ~strikethrough~ `inline code` and a [link](https://apple.com)";
+"textRich.markdown.list"           = "You can mix lists:\n• First item\n• Second item\n• Third item";
+
+"textRich.attributed.title"        = "AttributedString";
+
+"textRich.selectable.title"        = "Selectable & monospaced";
+"textRich.selectable.paragraph"    = "Tap and hold to select and copy this paragraph. This demonstrates textSelection(.enabled).";
+"textRich.selectable.monoDigits"   = "Monospaced digits: 12:34:56";
+"textRich.selectable.label"        = "With SF Symbol";
+
+/* Text & Rich – AttributedString pieces */
+"textRich.attributed.prefix"       = "Mix styles in a single ";
+"textRich.attributed.highlight"    = "AttributedString";
+"textRich.attributed.suffix"       = " block, including color, weight and size.";
+
+/* UIKit Interop – extra */
+
+/* Screen sections */
+"uikitInterop.share.title"              = "Share sheet (UIActivityViewController)";
+"uikitInterop.share.subtitle"           = "Presented from SwiftUI via UIViewControllerRepresentable.";
+
+"uikitInterop.textView.title"           = "Embedded UITextView";
+"uikitInterop.textView.subtitle"        = "UITextView wrapped in UIViewRepresentable with two-way binding.";
+"uikitInterop.textView.placeholder"     = "This UITextView comes from UIKit.";
+"uikitInterop.textView.currentLabel"    = "Current text:";
+
+"uikitInterop.slider.title"             = "UISlider in SwiftUI";
+"uikitInterop.slider.subtitle"          = "Value is bridged via Coordinator to SwiftUI state.";
+
+/* Share sheet content */
+"uikitInterop.share.item.currentText"   = "Current text: %@";
+"uikitInterop.share.item.sliderValue"   = "Slider value: %@";
+
+/* Slider value label */
+"uikitInterop.slider.valueLabel"        = "Slider value: %.2f";
+
+/* Routes */
+"route.widgets.title" = "Widgets / Live Activities";
+
+/* Widgets / Live Activities screen */
+
+"widgets.overview.title"   = "Overview";
+"widgets.overview.body"    = "Widgets live in a separate WidgetKit target, and Live Activities in an ActivityKit target. They appear on the Lock Screen and in the Dynamic Island. This screen is a visual mock, not a real widget.";
+
+/* Home screen widgets preview */
+"widgets.preview.widgets.title"    = "Home screen widgets (mock)";
+"widgets.preview.widgets.subtitle" = "Small and medium widgets rendered using regular SwiftUI.";
+
+/* Live Activity preview */
+"widgets.preview.liveActivity.title"    = "Live Activity (mock)";
+"widgets.preview.liveActivity.subtitle" = "Lock Screen / Dynamic Island style banner with live progress.";
+
+/* Implementation steps */
+"widgets.steps.title" = "How to implement it for real";
+
+"widgets.steps.1.title"  = "Create a Widget Extension target";
+"widgets.steps.1.detail" = "WidgetKit file with `@main struct MyWidget: Widget` and a `TimelineProvider`.";
+
+"widgets.steps.2.title"  = "Prepare a shared model";
+"widgets.steps.2.detail" = "Shared code in an SPM package or common module: `Entry`, date formatting, localization.";
+
+"widgets.steps.3.title"  = "Add a Live Activity (ActivityKit)";
+"widgets.steps.3.detail" = "Define `ActivityAttributes`, register the type, and call `Activity.request(...)` from the app.";
+
+"widgets.steps.4.title"  = "Configure deep links";
+"widgets.steps.4.detail" = "Taps on the widget or activity should open the right screen in the app (`URL` / `WidgetURL`).";
+
+"widgets.steps.5.title"  = "Respect platform limitations";
+"widgets.steps.5.detail" = "Update frequency, small payload size, different families (`.systemSmall`, `.systemMedium`, `.accessoryInline`, etc.).";
+
+/* Widgets – small widget preview */
+"widgets.small.header"  = "TODAY";
+"widgets.small.tasks"   = "8 tasks";
+"widgets.small.dueSoon" = "3 due soon";
+
+/* Widgets – medium widget preview */
+"widgets.medium.title"    = "Focus session";
+"widgets.medium.subtitle" = "Next break in 18 min";
+"widgets.medium.time"     = "00:18";
+"widgets.medium.ofTotal"  = "of 30";
+
+/* Widgets – Live Activity preview */
+"widgets.live.title"    = "Order on the way";
+"widgets.live.subtitle" = "Courier will arrive in 6 minutes";
+"widgets.live.eta"      = "ETA 19:42";
+"widgets.live.badge"    = "Live";
+
+"networking.title"              = "Networking";
+
+"networking.request.title"      = "GET https://httpbin.org/get";
+"networking.request.subtitle"   = "Simple GET request via URLSession with JSON decoding.";
+
+"networking.idle.hint"          = "Press \"Fetch sample\" to call the API.";
+"networking.loading"            = "Loading...";
+
+"networking.label.url"          = "URL";
+"networking.label.origin"       = "Origin (your IP as seen by server)";
+"networking.label.headers"      = "Some headers";
+"networking.label.error"        = "Error";
+
+"networking.button.fetch"       = "Fetch sample";
+"networking.button.reset"       = "Reset";
+
+
+
+/* UIKit Interop */
+"uikitInterop.title"         = "UIKit Interop";
+"uikitInterop.share.button"  = "Share (UIActivityViewController)";
+"uikitInterop.share.message" = "Hello from ExampleApp";

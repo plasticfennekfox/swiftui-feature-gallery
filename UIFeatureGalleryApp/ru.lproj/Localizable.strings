@@ -1,0 +1,415 @@
+/* 
+  Localizable.strings
+  ExampleApp
+
+  Created by Fuchs on 14/11/25.
+  
+*/
+/* Root */
+"root.title" = "Каталог SwiftUI Feature";
+
+/* Routes */
+"route.catalog.title"     = "Каталог";
+"route.forms.title"       = "Формы";
+"route.lists.title"       = "Списки";
+"route.navigation.title"  = "Навигация";
+"route.textRich.title"    = "Текст и форматирование";
+"route.animations.title"  = "Анимации";
+"route.gesturesDnD.title" = "Жесты и Drag&Drop";
+"route.charts.title"      = "Графики";
+"route.imagesDrawing.title" = "Изображения и рисование";
+"route.swiftData.title"   = "SwiftData";
+"route.networking.title"  = "Сеть";
+"route.widgets.title"     = "Виджеты / Live Activities";
+"route.uikitInterop.title" = "Интеграция с UIKit";
+"route.mapsStatic.title"  = "Статическая карта";
+
+/* Catalog screen */
+"catalog.title"    = "Каталог";
+"catalog.subtitle" = "Выберите раздел, чтобы открыть демо-экраны.";
+"catalog.section.features" = "Разделы";
+
+/* Forms */
+"forms.title"          = "Формы";
+"forms.field.name"     = "Имя";
+"forms.toggle.option"  = "Переключатель";
+"forms.date"           = "Дата";
+"forms.submit"         = "Отправить";
+
+/* Navigation */
+"navigation.title"           = "Навигация";
+"navigation.openSheet"       = "Открыть шторку";
+"navigation.showPopover"     = "Показать поповер";
+"navigation.sheet.content"   = "Содержимое шторки";
+"navigation.popover.content" = "Содержимое поповера";
+
+/* Animations */
+"animations.title" = "Анимации";
+
+/* Implicit */
+"animations.implicit.title" = "Неявная анимация";
+"animations.implicit.subtitle" = "Изменения анимируются автоматически при обновлении состояния.";
+"animations.implicit.button.on" = "Включить";
+"animations.implicit.button.off" = "Выключить";
+
+/* Explicit */
+"animations.explicit.title" = "Явная анимация";
+"animations.explicit.subtitle" = "Используйте withAnimation для большего контроля.";
+"animations.explicit.button.animate" = "Анимировать столбцы";
+"animations.explicit.button.reset" = "Сбросить столбцы";
+
+/* Matched geometry */
+"animations.matched.title" = "Matched geometry";
+"animations.matched.subtitle" = "Анимация перемещения view между контейнерами.";
+"animations.matched.left" = "Слева";
+"animations.matched.right" = "Справа";
+"animations.matched.badge" = "НОВОЕ";
+"animations.matched.button.toggleBadge" = "Переключить позицию бейджа";
+
+/* PhaseAnimator */
+"animations.phase.title" = "PhaseAnimator (iOS 17)";
+"animations.phase.subtitle" = "Анимируйте несколько фаз одной декларацией.";
+
+/* Charts */
+"charts.line.title"           = "Линейный график";
+"charts.line.subtitle"        = "Простая динамика по дням недели.";
+
+"charts.bar.title"            = "Столбчатый график";
+"charts.bar.subtitle"         = "Сравнение категорий с помощью BarMark.";
+
+"charts.mixed.title"          = "Смешанный график";
+"charts.mixed.subtitle"       = "Площадь и линия среднего значения.";
+
+"charts.axis.day"             = "День";
+"charts.axis.value"           = "Значение";
+"charts.axis.minutes"         = "Минуты";
+"charts.axis.category"        = "Категория";
+"charts.axis.average"         = "Среднее";
+
+"charts.bar.selected"         = "Выбрано: %@";
+"charts.bar.legend.hint"      = "Нажмите на строку в легенде ниже, чтобы выбрать категорию.";
+
+"charts.mixed.averageValue"   = "Среднее: %d";
+
+"charts.weekday.mon"          = "Пн";
+"charts.weekday.tue"          = "Вт";
+"charts.weekday.wed"          = "Ср";
+"charts.weekday.thu"          = "Чт";
+"charts.weekday.fri"          = "Пт";
+"charts.weekday.sat"          = "Сб";
+"charts.weekday.sun"          = "Вс";
+
+"charts.category.focus"       = "Фокус";
+"charts.category.meetings"    = "Встречи";
+"charts.category.coding"      = "Разработка";
+"charts.category.review"      = "Код-ревью";
+
+/* Forms – sections */
+"forms.section.account"     = "Аккаунт";
+"forms.section.preferences" = "Настройки";
+"forms.section.about"       = "О вас";
+"forms.progress.title"      = "Заполнение";
+
+/* Forms – fields */
+"forms.field.email"         = "Email";
+"forms.field.password"      = "Пароль (не менее 6 символов)";
+"forms.field.role"          = "Роль";
+"forms.field.reminderDate"  = "Дата напоминания";
+"forms.field.favoriteColor" = "Любимый цвет";
+
+/* Forms – toggles and sliders */
+"forms.toggle.notifications" = "Включить уведомления";
+"forms.toggle.newsletter"    = "Подписаться на рассылку";
+"forms.toggle.acceptTerms"   = "Я принимаю условия использования";
+"forms.age.label"            = "Возраст: %d";
+"forms.slider.satisfaction"  = "Удовлетворенность: %d%%";
+
+/* Forms – progress */
+"forms.progress.text" = "Заполнено на %d%%";
+
+/* Forms – roles */
+"forms.role.user"  = "Пользователь";
+"forms.role.admin" = "Администратор";
+"forms.role.guest" = "Гость";
+
+/* Forms – alerts and validation */
+"forms.alert.submitted.title"   = "Форма отправлена";
+"forms.alert.submitted.message" = "Мы записали данные формы в аналитику.";
+"forms.alert.submitted.ok"      = "OK";
+"forms.validation.error"        = "Пожалуйста, заполните обязательные поля и примите условия использования.";
+
+/* Gestures & Drag&Drop */
+"gestures.basic.title"            = "Базовые жесты";
+"gestures.basic.subtitle"         = "Одиночный тап, двойной тап и долгое нажатие.";
+"gestures.basic.tapArea.title"    = "Область касания";
+"gestures.basic.tapCount"         = "Касаний: %d";
+"gestures.basic.longPressed"      = "Долгое нажатие выполнено";
+"gestures.basic.longPressHint"    = "Нажмите и удерживайте";
+
+"gestures.drag.title"             = "Жест перетаскивания";
+"gestures.drag.subtitle"          = "Перетащите карточку, и она вернётся в центр с анимацией.";
+"gestures.drag.label"             = "Перетащите меня";
+
+"gestures.dnd.title"              = "Перетаскивание между колонками";
+"gestures.dnd.subtitle"           = "Перетаскивайте элементы между левой и правой колонками.";
+"gestures.dnd.columnA"            = "Колонка A";
+"gestures.dnd.columnB"            = "Колонка B";
+"gestures.dnd.placeholder"        = "Перетащите элементы сюда";
+
+/* Gestures – DnD sample items */
+"gestures.dnd.item.alpha.title"   = "Альфа";
+"gestures.dnd.item.bravo.title"   = "Браво";
+"gestures.dnd.item.charlie.title" = "Чарли";
+"gestures.dnd.item.delta.title"   = "Дельта";
+"gestures.dnd.item.echo.title"    = "Эхо";
+
+"gestures.dnd.item.subtitle.columnA" = "Из колонки A";
+"gestures.dnd.item.subtitle.columnB" = "Из колонки B";
+
+/* Images & Drawing */
+"images.basic.title"           = "Базовые изображения";
+"images.basic.subtitle"        = "SF Symbols, режимы отрисовки и соотношение сторон.";
+
+"images.masks.title"           = "Маски и наложения";
+"images.masks.subtitle"        = "Линейный градиент с маской скруглённого прямоугольника и наложенным текстом.";
+"images.masks.headerTitle"     = "Градиентная карточка";
+"images.masks.headerSubtitle"  = "Маска, наложения и тени";
+
+"images.canvas.title"          = "Canvas";
+"images.canvas.subtitle"       = "Произвольный рисунок с помощью Canvas и фигур.";
+
+"images.freeDrawing.title"         = "Свободное рисование";
+"images.freeDrawing.subtitle"      = "Рисуйте пальцем (мышью в симуляторе).";
+"images.freeDrawing.clearButton"   = "Очистить";
+
+/* Lists */
+"lists.title"                           = "Списки";
+
+"lists.toolbar.filterFavorites.help"    = "Показать только избранное";
+"lists.toolbar.add.accessibilityLabel"  = "Добавить элемент";
+"lists.search.prompt"                   = "Поиск по элементам";
+
+"lists.section.static"                  = "Статические примеры";
+"lists.section.dynamic"                 = "Редактируемый список";
+
+"lists.static.row.plain"                = "Обычная строка";
+"lists.static.row.detail"               = "Со строкой описания";
+"lists.static.row.badgeTitle"           = "Со значком";
+"lists.static.row.badgeLabel"           = "НОВОЕ";
+
+"lists.emptyState"                      = "Нет элементов, удовлетворяющих фильтрам";
+
+"lists.action.favorite"                 = "В избранное";
+"lists.action.unfavorite"               = "Убрать из избранного";
+"lists.action.delete"                   = "Удалить";
+
+"lists.item.titlePattern"               = "Элемент %d";
+"lists.item.subtitleCreatedNow"         = "Создано сейчас";
+"lists.sample.subtitlePattern"          = "Подзаголовок %d";
+
+/* Static Map */
+"maps.overview.title"         = "Обзор";
+"maps.overview.subtitle"      = "Статические превью карты с предопределёнными регионами и точками. Службы геолокации не используются.";
+
+"maps.simple.title"           = "Простое статичное превью";
+"maps.simple.subtitle"        = "Неинтерактивная карта, центрированная на Apple Park.";
+
+"maps.presets.title"          = "Регионы (пресеты)";
+"maps.presets.subtitle"       = "Переключайтесь между заранее заданными городами без жестов пользователя.";
+"maps.presets.picker.label"   = "Регион";
+"maps.presets.showing"        = "Показан регион: %@";
+
+"maps.annotations.title"      = "Аннотации";
+"maps.annotations.subtitle"   = "Пользовательские маркеры для нескольких локаций на статичной карте.";
+
+/* Static Map – presets */
+"maps.preset.applePark"       = "Apple Park";
+"maps.preset.sanFrancisco"    = "Сан-Франциско";
+"maps.preset.london"          = "Лондон";
+
+/* Static Map – locations */
+"maps.location.applePark.title"        = "Apple Park, Купертино";
+"maps.location.applePark.short"        = "Apple Park";
+
+"maps.location.sanFrancisco.title"     = "Сан-Франциско, Калифорния";
+"maps.location.sanFrancisco.short"     = "SF";
+
+"maps.location.london.title"           = "Лондон, Великобритания";
+"maps.location.london.short"           = "Лондон";
+
+/* Navigation screen */
+/* Navigation – links card */
+"navigation.links.title"              = "Навигационные ссылки";
+"navigation.links.subtitle"           = "Открывайте детальные экраны с помощью NavigationLink.";
+"navigation.link.detailA.title"       = "Деталь A";
+"navigation.link.detailB.title"       = "Деталь B";
+"navigation.link.detailA"             = "Перейти к детали A";
+"navigation.link.detailB"             = "Перейти к детали B";
+
+/* Navigation – sheets card */
+"navigation.sheetsCard.title"         = "Шторки и полноэкранные окна";
+"navigation.sheetsCard.subtitle"      = "Показывайте модальные экраны через sheet и fullScreenCover.";
+"navigation.buttons.fullScreen"       = "На весь экран";
+
+/* Navigation – dialogs & menus card */
+"navigation.dialogsCard.title"        = "Диалоги и меню";
+"navigation.dialogsCard.subtitle"     = "Пример confirmationDialog и встроенного меню.";
+"navigation.buttons.showConfirmDialog" = "Показать диалог подтверждения";
+"navigation.inlineMenu.label"         = "Открыть встроенное меню";
+"navigation.menu.settings"            = "Настройки";
+"navigation.menu.markAllRead"         = "Отметить всё как прочитанное";
+"navigation.menu.clearHistory"        = "Очистить историю";
+
+/* Navigation – toolbar menu */
+"navigation.toolbar.menu.logEvent"    = "Отправить событие аналитики";
+"navigation.toolbar.menu.refresh"     = "Обновить";
+
+/* Navigation – confirmation dialog */
+"navigation.confirm.title"            = "Вы уверены?";
+"navigation.confirm.message"          = "Это пример диалога confirmationDialog.";
+"navigation.confirm.primary"          = "Основное действие";
+"navigation.confirm.destructive"      = "Опасное действие";
+"navigation.confirm.cancel"           = "Отмена";
+
+/* Navigation – last action status */
+"navigation.status.prefix"            = "Последнее действие: %@";
+"navigation.status.none"              = "Пока действий не было";
+"navigation.status.primary"           = "Основное действие подтверждения";
+"navigation.status.destructive"       = "Опасное действие подтверждения";
+"navigation.status.cancelled"         = "Отменено";
+"navigation.status.menu.settings"     = "Меню: Открыть настройки";
+"navigation.status.menu.markRead"     = "Меню: Отметить всё как прочитанное";
+"navigation.status.menu.clearHistory" = "Меню: Очистить историю";
+"navigation.status.toolbar.logged"    = "Событие аналитики отправлено";
+"navigation.status.toolbar.refreshed" = "Контент обновлён";
+
+/* Navigation – TabView card */
+"navigation.tabsCard.title"           = "Превью TabView";
+"navigation.tabsCard.subtitle"        = "Встроенный TabView для демонстрации.";
+"navigation.tab.home.contentTitle"      = "Вкладка «Домой»";
+"navigation.tab.favorites.contentTitle" = "Вкладка «Избранное»";
+"navigation.tab.profile.contentTitle"   = "Вкладка «Профиль»";
+"navigation.tab.home.tabItem"           = "Домой";
+"navigation.tab.favorites.tabItem"      = "Избранное";
+"navigation.tab.profile.tabItem"        = "Профиль";
+"navigation.tab.selectedTemplate"       = "Выбрана вкладка: %@";
+
+/* Navigation – sheet content */
+"navigation.sheet.title"              = "Шторка";
+"navigation.sheet.description"        = "Эта шторка показана через .sheet.";
+"navigation.button.close"             = "Закрыть";
+
+/* Navigation – full screen cover */
+"navigation.fullscreen.title"         = "Полноэкранное окно";
+"navigation.fullscreen.description"   = "Показано с помощью .fullScreenCover.";
+
+/* Text & Rich screen */
+"textRich.typography.title"        = "Типографика";
+"textRich.typography.largeTitle"   = "Крупный заголовок";
+"textRich.typography.titleText"    = "Заголовок";
+"textRich.typography.body"         = "Основной текст с обычным начертанием и переносами строк. Это имитация стандартного абзаца в вашем приложении.";
+"textRich.typography.caption"      = "Подпись / второстепенный текст";
+
+"textRich.markdown.title"          = "Markdown";
+"textRich.markdown.inline"         = "**Жирный** _курсив_ ~зачёркнутый~ `встроенный код` и [ссылка](https://apple.com)";
+"textRich.markdown.list"           = "Можно смешивать списки:\n• Первый пункт\n• Второй пункт\n• Третий пункт";
+
+"textRich.attributed.title"        = "AttributedString";
+
+"textRich.selectable.title"        = "Выделяемый и моноширинный текст";
+"textRich.selectable.paragraph"    = "Нажмите и удерживайте, чтобы выделить и скопировать этот абзац. Демонстрация textSelection(.enabled).";
+"textRich.selectable.monoDigits"   = "Моноширинные цифры: 12:34:56";
+"textRich.selectable.label"        = "С SF Symbol";
+
+/* Text & Rich – AttributedString pieces */
+"textRich.attributed.prefix"       = "Смешивайте стили в одном ";
+"textRich.attributed.highlight"    = "AttributedString";
+"textRich.attributed.suffix"       = " блоке, включая цвет, начертание и размер.";
+
+/* UIKit Interop – extra */
+
+/* Screen sections */
+"uikitInterop.share.title"              = "Экран шаринга (UIActivityViewController)";
+"uikitInterop.share.subtitle"           = "Показывается из SwiftUI через UIViewControllerRepresentable.";
+
+"uikitInterop.textView.title"           = "Встроенный UITextView";
+"uikitInterop.textView.subtitle"        = "UITextView, обёрнутый в UIViewRepresentable с двусторонним связыванием.";
+"uikitInterop.textView.placeholder"     = "Этот UITextView пришёл из UIKit.";
+"uikitInterop.textView.currentLabel"    = "Текущий текст:";
+
+"uikitInterop.slider.title"             = "UISlider в SwiftUI";
+"uikitInterop.slider.subtitle"          = "Значение передаётся через Coordinator в состояние SwiftUI.";
+
+/* Share sheet content */
+"uikitInterop.share.item.currentText"   = "Текущий текст: %@";
+"uikitInterop.share.item.sliderValue"   = "Значение слайдера: %@";
+
+/* Slider value label */
+"uikitInterop.slider.valueLabel"        = "Значение слайдера: %.2f";
+
+/* Widgets / Live Activities screen */
+
+"widgets.overview.title"   = "Обзор";
+"widgets.overview.body"    = "Виджеты живут в отдельной цели WidgetKit, а Live Activities — в ActivityKit и показываются на экране блокировки и в Dynamic Island. Этот экран — визуальный мок, а не настоящий виджет.";
+
+"widgets.preview.widgets.title"    = "Виджеты на домашнем экране (мок)";
+"widgets.preview.widgets.subtitle" = "Малый и средний виджеты, отображённые с помощью обычного SwiftUI.";
+
+"widgets.preview.liveActivity.title"    = "Live Activity (мок)";
+"widgets.preview.liveActivity.subtitle" = "Плашка в стиле экрана блокировки и Dynamic Island с живым прогрессом.";
+
+"widgets.steps.title" = "Как реализовать по-настоящему";
+
+"widgets.steps.1.title"  = "Создать цель Widget Extension";
+"widgets.steps.1.detail" = "Файл для WidgetKit, `@main struct MyWidget: Widget` и `TimelineProvider`.";
+
+"widgets.steps.2.title"  = "Подготовить общую модель";
+"widgets.steps.2.detail" = "Общий код в SPM-пакете или общем модуле: `Entry`, форматирование дат, локализация.";
+
+"widgets.steps.3.title"  = "Добавить Live Activity (ActivityKit)";
+"widgets.steps.3.detail" = "Описать `ActivityAttributes`, зарегистрировать тип и вызывать `Activity.request(...)` из приложения.";
+
+"widgets.steps.4.title"  = "Настроить диплинки";
+"widgets.steps.4.detail" = "Клики по виджету или активности ведут на нужный экран приложения (`URL` / `WidgetURL`).";
+
+"widgets.steps.5.title"  = "Учесть ограничения платформы";
+"widgets.steps.5.detail" = "Частота обновления, небольшой объём данных, разные семейства (`.systemSmall`, `.systemMedium`, `.accessoryInline` и т. п.).";
+
+/* Widgets – small widget preview */
+"widgets.small.header"  = "СЕГОДНЯ";
+"widgets.small.tasks"   = "8 задач";
+"widgets.small.dueSoon" = "3 скоро дедлайн";
+
+/* Widgets – medium widget preview */
+"widgets.medium.title"    = "Сессия фокуса";
+"widgets.medium.subtitle" = "Следующий перерыв через 18 мин";
+"widgets.medium.time"     = "00:18";
+"widgets.medium.ofTotal"  = "из 30";
+
+/* Widgets – Live Activity preview */
+"widgets.live.title"    = "Заказ в пути";
+"widgets.live.subtitle" = "Курьер прибудет через 6 минут";
+"widgets.live.eta"      = "Ожидаемое время 19:42";
+"widgets.live.badge"    = "Live";
+
+"networking.title"              = "Сеть";
+
+"networking.request.title"      = "GET https://httpbin.org/get";
+"networking.request.subtitle"   = "Простой GET-запрос через URLSession с декодированием JSON.";
+
+"networking.idle.hint"          = "Нажмите «Fetch sample», чтобы выполнить запрос.";
+"networking.loading"            = "Загрузка...";
+
+"networking.label.url"          = "URL";
+"networking.label.origin"       = "Origin (ваш IP для сервера)";
+"networking.label.headers"      = "Некоторые заголовки";
+"networking.label.error"        = "Ошибка";
+
+"networking.button.fetch"       = "Fetch sample";
+"networking.button.reset"       = "Сбросить";
+
+
+/* UIKit Interop */
+"uikitInterop.title"         = "Интеграция с UIKit";
+"uikitInterop.share.button"  = "Поделиться (UIActivityViewController)";
+"uikitInterop.share.message" = "Привет из ExampleApp";
